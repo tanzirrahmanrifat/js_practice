@@ -1,0 +1,62 @@
+.c-hight{
+  max-width: 200px;
+  min-height: 200px;
+}
+
+#draggable1{
+  max-width: 100px;
+  min-height: 30px;
+}
+
+/* selectable  */
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+
+/* menu  */
+#menu{
+  width: 100px;
+}
+
+/* progress  */
+.ui-progressbar {
+  position: relative;
+}
+.progress-label {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+/* counter up  */
+.counter{
+  margin: 10px 0;
+  display: inline-block;
+  width: 32%;
+  background-color: chocolate;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/* load more  */
+.load-more__btn-wrap a{
+  padding: 7px;
+  font-size: 18px;
+  color: #fff;
+  background: #e056fd;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+/* add class  */
+#addbtn{
+  width: 20%;
+  height: 10%;
+}
+.addclass{
+  width: 40%;
+  height: 30%;
+  border: 1px dashed;
+}
+.newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 120px; padding: 30px; margin: 10px; font-size: 1.1em; }
